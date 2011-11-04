@@ -1,15 +1,10 @@
-" description:	color scheme based on google's
-"      author:	kamil.stachowski@gmail.com
+" description:	color scheme based on google+'s
+"      author:	siro.cola@gmail.com
 "     license:	gpl 3+
-"     version:	0.3 (2011.09.17)
+"     version:	0.1 (2011.09.17)
 
 " changelog:
-"         0.3:  2011.09.17
-"               google+
-"         0.2:	2008.11.27
-"         		changed MatchParen to link to Type (thanks to Jarosław Mężyk)
-"         		added Diff*
-"         0.1:	2008.11.20
+"         0.1:  2011.09.17
 "       		initial version
 
 
@@ -21,20 +16,6 @@ if exists("syntax_on")
 endif
 
 let colors_name = "google+"
-
-
-" black			000000
-" blue dark		6694e3
-" blue dark2	2a5db0
-" blue light	e0ecff
-" green dark	006633
-" green light	46aa64
-" grey			aaaaaa
-" red			d96666
-" white			ffffff
-" yellow		ffffb5
-
-" pmenu
 
 hi Comment 		guifg=#D14836   guibg=#ffffff	gui=none
 hi Constant 	guifg=#6694e3   guibg=#ffffff	gui=none
@@ -54,12 +35,11 @@ hi Normal 		guifg=#111111	guibg=#ffffff   gui=none
 hi PreProc 		guifg=#46aa64	guibg=#ffffff	gui=none
 hi Search		guifg=#000000	guibg=#ffffb5
 hi Special		guifg=#d0d0d0   guibg=#ffffff	gui=none
-hi Statement 	guifg=#2a5db0	guibg=#ffffff	gui=bold,underline
+hi Statement 	guifg=#2a5db0	guibg=#ffffff	gui=bold
 hi StatusLine 	guifg=#000000   guibg=#cccccc   gui=bold
 hi StatusLineNC guifg=#aaaaaa	guibg=#e0ecff	gui=none
 hi Todo 		guifg=#ffffff	guibg=#d96666	gui=bold
 hi Type 		guifg=#006633	guibg=#ffffff	gui=bold
-hi Underlined	guifg=#000000	guibg=#ffffff	gui=underline
 hi VertSplit	guifg=#e0ecff	guibg=#e0ecff	gui=none
 hi Visual		guifg=#ffffff	guibg=#6694e3	gui=none
 
