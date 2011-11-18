@@ -4,6 +4,8 @@
 "     version:	0.1 (2011.09.17)
 
 " changelog:
+"         0.2:  2011.11.18
+"       		modify background and Visual color
 "         0.1:  2011.09.17
 "       		initial version
 
@@ -17,31 +19,31 @@ endif
 
 let colors_name = "google+"
 
-hi Comment 		guifg=#D14836   guibg=#ffffff	gui=none
-hi Constant 	guifg=#6694e3   guibg=#ffffff	gui=none
-hi Cursor 		guifg=#ffffff	guibg=#000000	gui=none
+hi Comment 		guifg=#D14836   guibg=#f8f8f8	gui=none
+hi Constant 	guifg=#6694e3   guibg=#f8f8f8	gui=none
+hi Cursor 		guifg=#f8f8f8	guibg=#000000	gui=none
 hi CursorLine		          	guibg=#efefef	gui=none
-hi DiffAdd		guifg=#ffffff	guibg=#006633	gui=none
+hi DiffAdd		guifg=#f8f8f8	guibg=#006633	gui=none
 hi DiffChange	guifg=#000000	guibg=#ffffb5	gui=none
 hi DiffDelete	guifg=#000000	guibg=#d96666	gui=none
 hi DiffText		guifg=#d96666	guibg=#ffffb5	gui=none
 hi Folded 		guibg=#efefef	guifg=#000000	gui=italic
-hi Identifier 	guifg=#7799bb	guibg=#ffffff	gui=none
-hi LineNr		guifg=#d0d0d0   guibg=#2d2d2d   gui=none
+hi Identifier 	guifg=#7799bb	guibg=#f8f8f8	gui=none
+hi LineNr		guifg=#d0d0d0   guibg=#3a3a3a   gui=none
 hi MatchParen	guifg=#000000   guibg=#e0ecff   gui=none
 hi ModeMsg		guifg=#cccccc   guibg=#2d2d2d   gui=bold
-hi NonText 		guifg=#f0f0f0	guibg=#ffffff	gui=none
-hi Normal 		guifg=#111111	guibg=#ffffff   gui=none
-hi PreProc 		guifg=#46aa64	guibg=#ffffff	gui=none
+hi NonText 		guifg=#f8f8f8	guibg=#f8f8f8	gui=none
+hi Normal 		guifg=#111111	guibg=#f8f8f8   gui=none
+hi PreProc 		guifg=#46aa64	guibg=#f8f8f8	gui=none
 hi Search		guifg=#000000	guibg=#ffffb5
-hi Special		guifg=#d0d0d0   guibg=#ffffff	gui=none
-hi Statement 	guifg=#2a5db0	guibg=#ffffff	gui=bold
+hi Special		guifg=#d0d0d0   guibg=#f8f8f8	gui=none
+hi Statement 	guifg=#2a5db0	guibg=#f8f8f8	gui=bold
 hi StatusLine 	guifg=#000000   guibg=#cccccc   gui=bold
 hi StatusLineNC guifg=#aaaaaa	guibg=#e0ecff	gui=none
-hi Todo 		guifg=#ffffff	guibg=#d96666	gui=bold
-hi Type 		guifg=#006633	guibg=#ffffff	gui=bold
+hi Todo 		guifg=#f8f8f8	guibg=#d96666	gui=bold
+hi Type 		guifg=#006633	guibg=#f8f8f8	gui=bold
 hi VertSplit	guifg=#e0ecff	guibg=#e0ecff	gui=none
-hi Visual		guifg=#ffffff	guibg=#6694e3	gui=none
+hi Visual	            		guibg=#a0d8ef   gui=none
 
 hi!	link Macro			PreProc
 hi! link Boolean		Constant
