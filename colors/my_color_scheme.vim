@@ -1,13 +1,15 @@
-" description:	color scheme based on google+'s
+" description:	color scheme for me
 "      author:	siro.cola@gmail.com
 "     license:	gpl 3+
-"     version:	0.1 (2011.09.17)
+"     version:	0.3 (2012.02.20)
 
 " changelog:
+"         0.3:  2012.02.20
+"               change scheme's name
 "         0.2:  2011.11.18
-"       		modify background and Visual color
+"               modify background and Visual color
 "         0.1:  2011.09.17
-"       		initial version
+"               initial version
 
 
 set background=light
@@ -17,7 +19,7 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-let colors_name = "google+"
+let colors_name = "my_color_scheme"
 
 hi Comment 		guifg=#D14836   guibg=#fafafa	gui=none
 hi Constant 	guifg=#6694e3   guibg=#fafafa	gui=none
