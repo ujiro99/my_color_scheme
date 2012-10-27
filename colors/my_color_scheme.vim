@@ -23,29 +23,29 @@ endif
 
 let colors_name = "my_color_scheme"
 
-hi Comment       guifg=#D14836  guibg=#fafafa  gui=none
-hi Constant      guifg=#6694e3  guibg=#fafafa  gui=none
-hi Cursor        guifg=#fafafa  guibg=#000000  gui=none
-hi CursorLine                   guibg=#efefef  gui=none
-hi DiffAdd       guifg=#fafafa  guibg=#006633  gui=none
+hi Comment       guifg=#b06050  guibg=#f0f0f0  gui=none
+hi Constant      guifg=#6694e3  guibg=#f0f0f0  gui=none
+hi Cursor        guifg=#f0f0f0  guibg=#000000  gui=none
+hi CursorLine                   guibg=#e0e0e0  gui=none
+hi DiffAdd       guifg=#f0f0f0  guibg=#006633  gui=none
 hi DiffChange    guifg=#000000  guibg=#ffffb5  gui=none
 hi DiffDelete    guifg=#000000  guibg=#d96666  gui=none
 hi DiffText      guifg=#d96666  guibg=#ffffb5  gui=none
-hi Folded        guifg=#000000  guibg=#efefef  gui=italic
-hi Identifier    guifg=#7799bb  guibg=#fafafa  gui=none
-hi LineNr        guifg=#d0d0d0  guibg=#3a3a3a  gui=none
+hi Folded        guifg=#000000  guibg=#e0e0e0  gui=italic
+hi Identifier    guifg=#7799bb  guibg=#f0f0f0  gui=none
+hi LineNr        guifg=#d0d0d0  guibg=#4a4a4a  gui=none
 hi MatchParen    guifg=#000000  guibg=#e0ecff  gui=none
 hi ModeMsg       guifg=#cccccc  guibg=#2d2d2d  gui=bold
-hi NonText       guifg=#fafafa  guibg=#fafafa  gui=none
-hi Normal        guifg=#111111  guibg=#fafafa  gui=none
-hi PreProc       guifg=#46aa64  guibg=#fafafa  gui=none
+hi NonText       guifg=#f0f0f0  guibg=#f0f0f0  gui=none
+hi Normal        guifg=#111111  guibg=#f0f0f0  gui=none
+hi PreProc       guifg=#469964  guibg=#f0f0f0  gui=none
 hi Search        guifg=#000000  guibg=#ffffb5
-hi Special       guifg=#d0d0d0  guibg=#fafafa  gui=none
-hi Statement     guifg=#2a5db0  guibg=#fafafa  gui=bold
+hi Special       guifg=#a0a0a0  guibg=#f0f0f0  gui=none
+hi Statement     guifg=#2a5db0  guibg=#f0f0f0  gui=bold
 hi StatusLine    guifg=#000000  guibg=#cccccc  gui=bold
 hi StatusLineNC  guifg=#aaaaaa  guibg=#e0ecff  gui=none
-hi Todo          guifg=#fafafa  guibg=#d96666  gui=bold
-hi Type          guifg=#006633  guibg=#fafafa  gui=bold
+hi Todo          guifg=#f0f0f0  guibg=#d96666  gui=bold
+hi Type          guifg=#006633  guibg=#f0f0f0  gui=bold
 hi VertSplit     guifg=#e0ecff  guibg=#e0ecff  gui=none
 hi Visual                       guibg=#a0d8ef  gui=none
 
