@@ -23,7 +23,7 @@ endif
 
 let colors_name = "my_color_scheme"
 
-hi Comment       guifg=#b06050  guibg=#f0f0f0  gui=none
+hi Comment       guifg=#b07060  guibg=#f0f0f0  gui=none
 hi Constant      guifg=#6694e3  guibg=#f0f0f0  gui=none
 hi Cursor        guifg=#f0f0f0  guibg=#000000  gui=none
 hi CursorLine                   guibg=#e0e0e0  gui=none
@@ -48,6 +48,12 @@ hi Todo          guifg=#f0f0f0  guibg=#d96666  gui=bold
 hi Type          guifg=#006633  guibg=#f0f0f0  gui=bold
 hi VertSplit     guifg=#e0ecff  guibg=#e0ecff  gui=none
 hi Visual                       guibg=#a0d8ef  gui=none
+
+"ポップアップメニュー
+hi Pmenu                        guibg=#d5d5d5
+hi PmenuSel                     guibg=#aaccff
+hi PmenuSbar                    guibg=#333333
+hi PmenuThumb    guifg=#0000ff
 
 hi! link  Macro          PreProc
 hi! link  Boolean        Constant
