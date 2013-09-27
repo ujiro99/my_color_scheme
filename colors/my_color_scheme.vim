@@ -12,29 +12,29 @@ endif
 
 let colors_name = "my_color_scheme"
 
-hi Comment       guifg=#b07060  guibg=#f0f0f0  gui=none
-hi Constant      guifg=#6694e3  guibg=#f0f0f0  gui=none
-hi Cursor        guifg=#f0f0f0  guibg=#000000  gui=none
+hi Comment       guifg=#bb7060  guibg=#f5f5f5  gui=none
+hi Constant      guifg=#6694e3  guibg=#f5f5f5  gui=none
+hi Cursor        guifg=#f5f5f5  guibg=#000000  gui=none
 hi CursorLine                   guibg=#e0e0e0  gui=none
-hi DiffAdd       guifg=#f0f0f0  guibg=#006633  gui=none
+hi DiffAdd       guifg=#f5f5f5  guibg=#006633  gui=none
 hi DiffChange    guifg=#000000  guibg=#ffffb5  gui=none
 hi DiffDelete    guifg=#000000  guibg=#d96666  gui=none
 hi DiffText      guifg=#d96666  guibg=#ffffb5  gui=none
 hi Folded        guifg=#000000  guibg=#e0e0e0  gui=italic
-hi Identifier    guifg=#7799bb  guibg=#f0f0f0  gui=none
+hi Identifier    guifg=#7799bb  guibg=#f5f5f5  gui=none
 hi LineNr        guifg=#d0d0d0  guibg=#4a4a4a  gui=none
 hi MatchParen    guifg=#000000  guibg=#e0ecff  gui=none
 hi ModeMsg       guifg=#cccccc  guibg=#2d2d2d  gui=bold
-hi NonText       guifg=#f0f0f0  guibg=#f0f0f0  gui=none
-hi Normal        guifg=#111111  guibg=#f0f0f0  gui=none
-hi PreProc       guifg=#469964  guibg=#f0f0f0  gui=none
+hi NonText       guifg=#f5f5f5  guibg=#f5f5f5  gui=none
+hi Normal        guifg=#111111  guibg=#f5f5f5  gui=none
+hi PreProc       guifg=#469964  guibg=#f5f5f5  gui=none
 hi Search        guifg=#000000  guibg=#b7dfe5
-hi Special       guifg=#a0a0a0  guibg=#f0f0f0  gui=none
-hi Statement     guifg=#2a5db0  guibg=#f0f0f0  gui=bold
+hi Special       guifg=#a0a0a0  guibg=#f5f5f5  gui=none
+hi Statement     guifg=#2a5db0  guibg=#f5f5f5  gui=bold
 hi StatusLine    guifg=#000000  guibg=#cccccc  gui=bold
 hi StatusLineNC  guifg=#aaaaaa  guibg=#e0ecff  gui=none
-hi Todo          guifg=#f0f0f0  guibg=#d96666  gui=bold
-hi Type          guifg=#006633  guibg=#f0f0f0  gui=bold
+hi Todo          guifg=#f5f5f5  guibg=#d96666  gui=bold
+hi Type          guifg=#008080  guibg=#f5f5f5  gui=bold
 hi VertSplit     guifg=#e0ecff  guibg=#e0ecff  gui=none
 hi Visual                       guibg=#a0d8ef  gui=none
 
