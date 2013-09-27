@@ -3,17 +3,6 @@
 "     license:  gpl 3+
 "     version:  0.3 (2012.02.20)
 
-" changelog:
-"         0.4:  2012.09.22
-"               format spaces
-"         0.3:  2012.02.20
-"               change scheme's name
-"         0.2:  2011.11.18
-"               modify background and Visual color
-"         0.1:  2011.09.17
-"               initial version
-
-
 set background=light
 
 hi clear
