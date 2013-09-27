@@ -39,7 +39,7 @@ hi ModeMsg       guifg=#cccccc  guibg=#2d2d2d  gui=bold
 hi NonText       guifg=#f0f0f0  guibg=#f0f0f0  gui=none
 hi Normal        guifg=#111111  guibg=#f0f0f0  gui=none
 hi PreProc       guifg=#469964  guibg=#f0f0f0  gui=none
-hi Search        guifg=#000000  guibg=#ffffb5
+hi Search        guifg=#000000  guibg=#b7dfe5
 hi Special       guifg=#a0a0a0  guibg=#f0f0f0  gui=none
 hi Statement     guifg=#2a5db0  guibg=#f0f0f0  gui=bold
 hi StatusLine    guifg=#000000  guibg=#cccccc  gui=bold
