@@ -1,7 +1,7 @@
 " description:  color scheme for me
 "      author:  siro.cola@gmail.com
 "     license:  gpl 3+
-"     version:  0.3 (2012.02.20)
+"     version:  0.4 (2014.01.13)
 
 set background=light
 
@@ -12,7 +12,7 @@ endif
 
 let colors_name = "my_color_scheme"
 
-hi Comment       guifg=#bb7060  guibg=#f5f5f5  gui=none
+hi Comment       guifg=#bb7060  guibg=#f5f5f5  gui=italic
 hi Constant      guifg=#6694e3  guibg=#f5f5f5  gui=none
 hi Cursor        guifg=#f5f5f5  guibg=#000000  gui=none
 hi CursorLine                   guibg=#e0e0e0  gui=none
@@ -20,13 +20,15 @@ hi DiffAdd       guifg=#f5f5f5  guibg=#006633  gui=none
 hi DiffChange    guifg=#000000  guibg=#ffffb5  gui=none
 hi DiffDelete    guifg=#000000  guibg=#d96666  gui=none
 hi DiffText      guifg=#d96666  guibg=#ffffb5  gui=none
+hi Error         guifg=#ff1100  guibg=#f8f8ff  gui=undercurl
 hi Folded        guifg=#000000  guibg=#e0e0e0  gui=italic
 hi Identifier    guifg=#7799bb  guibg=#f5f5f5  gui=none
-hi LineNr        guifg=#d0d0d0  guibg=#4a4a4a  gui=none
+hi LineNr        guifg=#959595  guibg=#e0e0e0  gui=bold
 hi MatchParen    guifg=#000000  guibg=#e0ecff  gui=none
 hi ModeMsg       guifg=#cccccc  guibg=#2d2d2d  gui=bold
 hi NonText       guifg=#f5f5f5  guibg=#f5f5f5  gui=none
 hi Normal        guifg=#111111  guibg=#f5f5f5  gui=none
+hi Number        guifg=#1C9898
 hi PreProc       guifg=#469964  guibg=#f5f5f5  gui=none
 hi Search        guifg=#000000  guibg=#b7dfe5
 hi Special       guifg=#a0a0a0  guibg=#f5f5f5  gui=none
@@ -38,7 +40,7 @@ hi Type          guifg=#008080  guibg=#f5f5f5  gui=bold
 hi VertSplit     guifg=#e0ecff  guibg=#e0ecff  gui=none
 hi Visual                       guibg=#a0d8ef  gui=none
 
-"ポップアップメニュー
+" ポップアップメニュー
 hi Pmenu                        guibg=#d5d5d5
 hi PmenuSel                     guibg=#aaccff
 hi PmenuSbar                    guibg=#333333
@@ -53,7 +55,6 @@ hi! link  Debug          PreProc
 hi! link  Define         PreProc
 hi! link  Delimiter      Identifier
 hi! link  Directory      Statement
-hi! link  Error          Todo
 hi! link  ErrorMsg       Error
 hi! link  Exception      Statement
 hi! link  Float          Constant
@@ -68,7 +69,6 @@ hi! link  Keyword        Identifier
 hi! link  Label          Statement
 hi! link  MoreMsg        Identifier
 hi! link  NonText        Comment
-hi! link  Number         Constant
 hi! link  Operator       Identifier
 hi! link  Question       MoreMsg
 hi! link  PreCondit      PreProc
