@@ -18,9 +18,9 @@ hi Cursor        guifg=#f5f5f5  guibg=#000000  gui=none
 hi CursorLine                   guibg=#e0e0e0  gui=none
 hi DiffAdd       guifg=#f5f5f5  guibg=#006633  gui=none
 hi DiffChange    guifg=#000000  guibg=#ffffb5  gui=none
-hi DiffDelete    guifg=#000000  guibg=#d96666  gui=none
+hi DiffDelete    guifg=#000000  guibg=#ff8888  gui=none
 hi DiffText      guifg=#d96666  guibg=#ffffb5  gui=none
-hi Error         guifg=#ff1100  guibg=#f8f8ff  gui=undercurl
+hi Error         guifg=#ff5555  guibg=#f8f8ff  gui=undercurl
 hi Folded        guifg=#000000  guibg=#e0e0e0  gui=italic
 hi Identifier    guifg=#7799bb  guibg=#f5f5f5  gui=none
 hi LineNr        guifg=#959595  guibg=#e0e0e0  gui=bold
@@ -35,7 +35,7 @@ hi Special       guifg=#a0a0a0  guibg=#f5f5f5  gui=none
 hi Statement     guifg=#2a5db0  guibg=#f5f5f5  gui=bold
 hi StatusLine    guifg=#000000  guibg=#cccccc  gui=bold
 hi StatusLineNC  guifg=#aaaaaa  guibg=#e0ecff  gui=none
-hi Todo          guifg=#f5f5f5  guibg=#d96666  gui=bold
+hi Todo          guifg=#f5f5f5  guibg=#ff8888  gui=bold
 hi Type          guifg=#008080  guibg=#f5f5f5  gui=bold
 hi VertSplit     guifg=#e0ecff  guibg=#e0ecff  gui=none
 hi Visual                       guibg=#a0d8ef  gui=none
